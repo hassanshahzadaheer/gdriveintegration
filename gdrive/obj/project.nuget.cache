@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "SyLKmcvvgDjbutd4jBX3wpH47cZ3eMirdecDnW/BSkY9jSVVZS1TL2oSz3IxgdRKoh5fdHqiczD/2phcGB8/vw==",
+  "success": true,
+  "projectFilePath": "/Users/macbookpro/Projects/gdrive/gdrive/gdrive.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbookpro/.nuget/packages/google.apis/1.57.0/google.apis.1.57.0.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/google.apis.auth/1.57.0/google.apis.auth.1.57.0.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/google.apis.core/1.57.0/google.apis.core.1.57.0.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/google.apis.drive.v3/1.57.0.2746/google.apis.drive.v3.1.57.0.2746.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

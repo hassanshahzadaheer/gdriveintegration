@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Google.Apis.Drive.v3" />
+    <None Remove="Google.Apis.Drive.v2" />
+    <None Remove="GoogleDriveFiles\" />
+    <None Remove="Google\Apis\Drive\v3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.57.0.2746" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GoogleDriveFiles\" />
+    <Folder Include="Google\Apis\Drive\v3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="credentials.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

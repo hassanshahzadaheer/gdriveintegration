@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    @model gdrive.Models.GoogleDriveFilesRepository
+
+   
+    @using (Html.BeginForm("CreateFolder", "Home", FormMethod.Post))
+    {
+        <p>
+            Folder Name :<input type="text" class="form-control" name="FolderName" id="txtFolderName"/>
+            <input type="submit" class="btn btn-primary" class="CreateFolder" value="Create Folder" />
+        </p>
+    }
+
+    @ViewBag.FolderName
+
+</div>
+
